@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top:50px;
+}
+.container{
+    box-shadow: 0 0 12px black;
+    width: 70%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.grupo{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+.grupo input{
+    width: 100%;
+    border-radius: 4px;
+    line-height: 30px;
+    border: rgb(176, 176, 176) 2px solid;
+}
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.flexbox .grupo-edad{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.flexbox .grupo-otros{
+    width: 150px;
+}
